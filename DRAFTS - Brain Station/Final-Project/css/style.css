@@ -1,0 +1,50 @@
+body {
+    margin: 0%;
+}
+
+.banner {
+    background-image: url(../images/Balloon-background.png);
+    background-position: right;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 230px;
+    width: 230px;
+    border-radius: 200px;
+    padding: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    color: grey;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0%;
+}
+
+.party {
+    flex-wrap: wrap;
+}
+
+.theme { 
+    padding: 30px;
+    width: 400px;
+    border-radius: 60px;
+}
+
+.first {
+    max-width: 1300px;
+    text-align: center;
+}
